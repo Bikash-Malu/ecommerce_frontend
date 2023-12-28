@@ -1,0 +1,8 @@
+ul li{
+    font-size: 18px;
+    font-weight: 600;
+}
+ul li:hover{
+    border-bottom: 3px solid rgba(51, 126, 230, 0.789);
+    border-top: 3px solid rgba(51, 126, 230, 0.789);
+}
