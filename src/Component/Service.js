@@ -3,7 +3,7 @@ import React from 'react'
 const Service = () => {
   return (
 
-    <div>
+    <div className='container'>
     <div class=" container jumbotron">
     <h1 class="display-4">Welcome to Our eCommerce Service!</h1>
     <p class="lead">Discover a wide range of products and services tailored just for you.</p>
