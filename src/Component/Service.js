@@ -4,7 +4,7 @@ const Service = () => {
   return (
 
     <div>
-    <div class="jumbotron">
+    <div class=" container jumbotron">
     <h1 class="display-4">Welcome to Our eCommerce Service!</h1>
     <p class="lead">Discover a wide range of products and services tailored just for you.</p>
     <a class="btn btn-primary btn-lg" href="#" role="button" style={{marginTop:'50px'}}>Shop Now</a>
