@@ -1,8 +1,10 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import Footer from '../Footer';
-
+import Confettie from './Confettie';
+// import confetti from './confetti';
 const Home = () => {
+   
     const[product,setproduct]=useState([]);
 
     useEffect(()=>{
@@ -21,6 +23,7 @@ const Home = () => {
     
   return (
     <div class="container mt-5">
+        <Confettie/>
     <div class="jumbotron">
         <h1 class="display-4">Welcome to Your Online Store!</h1>
         <p class="lead">Explore our wide range of products and find the best deals.</p>

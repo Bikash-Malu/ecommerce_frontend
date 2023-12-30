@@ -138,7 +138,7 @@ const Signup = () => {
         </p>
         <div className="card-footer">
 
-        Already've an account?<Link to="/login">Login here</Link>
+        Already have an account? <Link to="/login">Login here</Link>
        
         </div>
         </div>
